@@ -12,8 +12,8 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 
 ## Things I am learning
 
-1. [Javascript Quiz]('javascript-quiz')
-2. [Typescript]('typescript')
+1. [Javascript Quiz](./javascript-quiz/)
+2. [Typescript](./typescript/)
 
 ### Contact
 
