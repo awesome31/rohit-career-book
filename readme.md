@@ -19,5 +19,5 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 
 Anyone who wants to build something exciting and needs technical help, can reach out to me at my below socials:
 
-1. [Linkedin]("https://www.linkedin.com/in/rohit-tyagi-0b9984167/")
-2. [Gmail]("mailto:tyagii.rohit@gmail.com")
+1. [Linkedin](https://www.linkedin.com/in/rohit-tyagi-0b9984167/)
+2. [Gmail](mailto:tyagii.rohit@gmail.com)
