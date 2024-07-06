@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    Hello World.
+  </body>
+
+  <script>
+    /**
+     * Introduction to Vanilla JavaScript.
+     *
+     * Vanilla JavaScript is a term used to describe plain JavaScript without any additional libraries like jQuery or React.
+     * We use Vanilla JavaScript to refer to the standard version of JavaScript that runs in the browser.
+     *
+     * 1. Add one more tool to your toolbox.
+     * 2. Understand how the library we use works under the hood.
+     * 3. Extend your library with plugins.
+     * 4. TO mix and match libraries.
+     * 5. Lightweight and fast.
+     */
+
+    /**
+     * DOM (Document Object Model)
+     * 1. The DOM is a representation of the HTML document in memory. It is a tree-like structure that contains nodes representing the elements of the document.
+     * 2. The DOM API provides methods and properties to interact with the DOM tree.
+     */
+
+    /**
+     * DOM API gives the following objects:
+     * 1. document: The entry point to the DOM. We can have multiple documents in a browser, but there is always one main document.
+     * 2. window: The global object that represents the browser window.
+     * 3. One object per element in the document.
+     */
+
+    /**
+     * Suppose we have the following HTML document:
+     * <!DOCTYPE html>
+     * <html>
+     *  <head>
+     *   <title>Document</title>
+     * </head>
+     * <body>
+     * <h1>Hello, World!</h1>
+     * <p>This is a paragraph.</p>
+     * </body>
+     * </html>
+     *
+     * 1. In this document, each HTML tag has an associated object in the DOM. Each object has properties and methods associated with it.
+     * 2. We can manipulate the properties of eaech object which will trigger updates in the browser, once we release the main thread.
+     *
+     * To work with DOM elements, I can either pick an element from the DOM, or inject an element into the DOM.
+     */
+
+    /**
+     * Selectors
+     */
+    document.getElementById("id"); // Selects an element by its ID (Single)
+    document.getElementsByClassName("class"); // Selects elements by their class name (Multiple)
+    document.getElementsByTagName("tag"); // Selects elements by their tag name (Multiple)
+    document.querySelector("selector"); // Selects the first element that matches the selector (Single)
+
+    /**
+     * These are the things that are returned through these functions.
+     * 1. Instance of a class that extends HTMLElement.
+     * 2. HTMLCollection: A collection of elements.
+     * 3. NodeList: A collection of nodes.
+     *
+     * Once we have an element selected, we can manipulate it using the properties and methods of the HTMLElement class.
+     */
+
+    document.createElement("h1");
+
+    /**
+     * Modifying Elements.
+     */
+  </script>
+</html>
