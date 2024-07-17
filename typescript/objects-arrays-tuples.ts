@@ -52,3 +52,15 @@ const myCar4: readonly [number, string, string] = [2002, "Toyota", "Corolla"];
  * 1. Nominal typing: This is the type of typing that is used in Java and C#. In this type of typing, the type of the variable is checked at compile time.
  * 2. Structural typing: This is the type of typing that is used in TypeScript. In this type of typing, the structure of the variable is more important than the constructor of the variable..
  */
+
+type BaseWidgetData<T> = {
+  id: string;
+  type: string;
+  styles: object;
+  widgetData: T;
+};
+
+export type HeaderProps = BaseWidgetData<{
+  text: string;
+  prescriptionCTA: string;
+}>;

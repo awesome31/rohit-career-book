@@ -14,6 +14,8 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 
 1. [Javascript Quiz](./javascript-quiz/)
 2. [Typescript](./typescript/)
+3. [Web Performance](./web-performance/)
+4. [Git](./git/)
 
 ### Contact
 
