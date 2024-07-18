@@ -71,3 +71,61 @@ There are 2 outcomes to the merge command:
 
 1. git rebease <tagret_branch> -> This is how we rebase a target branch.
 2. Rebase will add commits from the target branch into the current branch in a linear fashion. git rebease changes the history of the branch.
+
+### HEAD and reflog
+
+1. HEAD is a pointer to the commit that we are currently using.
+2. git reflog tells us where our head has been. If I keep switching branches and I want to know where my HEAD was a while ago, I can use reflog.
+3. As long as we have the SHAs for the commit, we can get the file.
+4. If we just want one commit instead of everything in the diverged branch that I lost, I can use cherrypick.
+
+## Remote repositories
+
+1. Git is a distributed version control system. That means anyone with a copy of the repository can work with git.
+2. We can add a remote to git using git remote add <name> <uri>. The URI can also be a file in your file system. It need not necessarily be a public URL.
+3. If we only have one single source of truth repo, then you should name the repo as origin. IF we have fork then we call it upstream.
+4. git fetch will fetch the latest objects from the remote repo and not do anything else. If we want to merge the changes on the remote to our local repository, we make use of git merge or git pull. We can check for the logs in origin by doing git log origin/master --oneline.
+
+### Pull and Push
+
+1. If I want the changes of my remote repo in my local copy, I can do git fetch and git merge. Instead of doing this 2 step process, we can just do git pull.
+   TIP: Always rebase changes when you are fetching from remote instead of merging since rebasing will add the changes to the tip of the file.
+
+## Conflict Resolution
+
+### Stashing
+
+We can stash our changes using git stash. Stash is a stack data structure and an area in the .git folder that is used for changes that are work in progress. You can push and pop in a stash (just assume that its a stack.)
+
+## Git tools
+
+There are some usecases where we have to search for a particular bug or problem in the codebase.
+
+1. git log --grep foo -p => Shows changes along with the changes.
+2. git log -p -- src/index.js => Shows us changes that are done in a particular file.
+
+### Git bisect
+
+This is a great great tool that helps us in figuring out where bugs are. There are two properties that need to hold true:
+
+1. Commits are cronologically ordered.
+2. You know a commit where the issue is not present.
+
+We can start by doing:
+
+1. git bisect start
+2. git bisect bad -> This will be the commit that is failing.
+3. git bisect good -> This will be the commit that is working.
+
+Instead of doing this manually, we can automate the whole thing.
+**Git bisect IS AN AMAZING TOOL.**
+
+### Git revert or reset
+
+Git revert changes and creates a commit for the same. Restore actually goes back in state.
+Git reset helps you just go back n commits.
+
+### Worktrees
+
+They are an alternative to stash.
+git worktree add will add things to the work tree.
