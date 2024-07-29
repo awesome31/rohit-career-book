@@ -16,6 +16,9 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 2. [Typescript](./typescript/)
 3. [Web Performance](./web-performance/)
 4. [Git](./git/)
+5. [Advent of Code](./advent-of-code/)
+6. [Algorithms](./algorithms/)
+7. [Learning Rust](./rust/)
 
 ### Contact
 
