@@ -19,6 +19,7 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 5. [Advent of Code](./advent-of-code/)
 6. [Algorithms](./algorithms/)
 7. [Learning Rust](./rust/)
+8. [AWS](./aws-certified-developer/)
 
 ### Contact
 
