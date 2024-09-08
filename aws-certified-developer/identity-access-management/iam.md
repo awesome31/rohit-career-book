@@ -106,3 +106,9 @@ AWS Organisations is a way to manage multiple AWS accounts in an organisation. E
 3. Now we go back to the identity account, and click on switch role from the top right. We provide the account ID and the role that we want to assume.
 
 ### Service Control Policies
+
+Service Control Policies are used to limit what an AWS account can do in an organisation. They cannot allow or deny permissions to an IAM identity. They just tell you which services can be used within an AWS acount.
+
+There are 2 types of SCPs, Allow List and Deny List. Deny List means that by default everything is allowed and we by default set the actions that we want to restrict. Allow list is the opposite of DenyList and we have to explicitly allow the actions. The diagram below helps understand the permissions for an AWS account:
+
+![STS](./assets/scp.png)
