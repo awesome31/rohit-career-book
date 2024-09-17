@@ -2,7 +2,7 @@
 
 ## Before Virtualization
 
-Each computing system consists of physical resources such as CPU and memory, network devices and other storage devices. Without virtualization the only piece able to directly interact with the hardware was the operating system. The operating system worked in privilidged mode, or a part of it does (which is called the kernel). Application softwares work in user mode or unprivilidged mode. They are not able to directly interact with the hardware and have to do a system call to the operating system to do interact with the hardware.
+Each computing system consists of physical resources such as CPU and memory, network devices and other storage devices. Without virtualization the only piece able to directly interact with the hardware was the operating system. The operating system worked in privilidged mode, or a part of it does (which is called the kernel). Application softwares work in user mode or unprivilidged mode. They are not able to directly interact with the hardware and have to do a system call to the operating system to interact with the hardware.
 
 In Summary, one computing system had one operating system and many applications interacting with the operating system.
 
