@@ -16,6 +16,7 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 2. [Typescript](./typescript/)
 3. [Git](./git/)
 4. [AWS](./aws-certified-developer/)
+5. [Daily Coding Problem](./daily-coding-problems)
 
 ## Apps I have been a part of
 
