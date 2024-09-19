@@ -1,4 +1,4 @@
-# Rohit's Career Book
+# Rohit's Learning Curve
 
 ## Who Am I?
 
@@ -16,6 +16,26 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 2. [Typescript](./typescript/)
 3. [Git](./git/)
 4. [AWS](./aws-certified-developer/)
+
+## Apps I have been a part of
+
+### Navis
+1. https://play.google.com/store/apps/details?id=com.navis.nReefer&hl=en_US
+2. https://play.google.com/store/apps/details?id=com.navis.pinning
+3. https://play.google.com/store/apps/details?id=com.navis.terminalvisits
+
+### Anar 
+1. https://www.anar.biz/
+2. https://play.google.com/store/apps/dev?id=7657012068745593110&hl=en_IN&pli=1
+
+### Mosaic Wellness
+1. https://play.google.com/store/apps/details?id=com.mosaicwellness.manmatters&pcampaignid=web_share
+2. https://play.google.com/store/apps/details?id=com.mosaicwellness.ourlittlejoys
+3. https://play.google.com/store/apps/details?id=com.mosaicwellness.bebodywise
+4. https://apps.apple.com/us/app/little-joys-kids-health-app/id1662152873
+5. https://apps.apple.com/in/app/man-matters-hair-beard-health/id1629846985
+6. https://apps.apple.com/us/app/bebodywise-womens-health-app/id6446192851
+7. https://play.google.com/store/apps/details?id=com.mosaicwellness.mediconnect&hl=en_IN
 
 ### Contact
 
