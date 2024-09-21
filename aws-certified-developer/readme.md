@@ -8,3 +8,4 @@ These are the services that I have read and keep learning about.
 4. [Secure Token Service](./secure-token-service/)
 5. [Tech Fundamentals](./tech-fundamentals/)
 6. [VPC (Virtual Private Cloud)](./virtual-private-cloud/)
+7. [Elastic Compute Cloud](./ec2/)
