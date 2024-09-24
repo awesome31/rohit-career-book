@@ -20,5 +20,3 @@
 ```JSON
 If 16KB is the IO Size and 100IOPS then throughput is 1.6mb/s
 ```
-
-## Elastic Block Storage (EBS)
