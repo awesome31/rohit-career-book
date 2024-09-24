@@ -1,0 +1,297 @@
+{
+  "reportId": "1",
+  "assets": [
+    {
+      "type": "video",
+      "uri": "",
+      "label": "Front"
+    },
+    {
+      "type": "photo",
+      "uri": "",
+      "label": "Lateral"
+    }
+  ],
+  "teeth": {
+    "definiton": {
+      "label": "Dentition",
+      "key": "dentition",
+      "steps": [
+        {
+          "type": "tag_selection_input",
+          "tags": [
+            {
+              "label": "Primary",
+              "value": "primary",
+              "selected": true
+            },
+            {
+              "label": "Mixed",
+              "value": "mixed",
+              "selected": true
+            },
+            {
+              "label": "Permanent",
+              "value": "permanent",
+              "selected": true
+            }
+          ],
+          "tagLabel": "Type of dentition",
+          "tagKey": "dentition_type",
+          "inputLabel": "Number of Permanent Teeth",
+          "inputKey": "permanent_teeth",
+          "inputValue": "",
+          "cta": {
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        }
+      ]
+    },
+    "mouth_opening": {
+      "label": "Mouth Opening",
+      "key": "mouth_opening",
+      "steps": [
+        {
+          "type": "radio",
+          "radioLabel": "Mouth Opening",
+          "radioKey": "mouth_opening",
+          "options": [
+            {
+              "label": "Restricted",
+              "value": "restricted",
+              "selected": true
+            },
+            {
+              "label": "Adequate",
+              "value": "adequate",
+              "selected": true
+            }
+          ],
+          "cta": {
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        }
+      ]
+    },
+    "decay": {
+      "label": "Decay",
+      "key": "decay",
+      "steps": [
+        {
+          "type": "radio",
+          "radioLabel": "Teeth Caries",
+          "radioKey": "teeth_caries",
+          "options": [
+            {
+              "label": "Present",
+              "value": "present",
+              "selected": true
+            },
+            {
+              "label": "Not Present",
+              "value": "not_present",
+              "selected": true
+            }
+          ],
+          "cta": {
+            "text": "Mark Teeth Caries",
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        },
+        {
+          "type": "radio",
+          "radioLabel": "Grossly Decayed",
+          "radioKey": "grossly_decayed",
+          "options": [
+            {
+              "label": "Present",
+              "value": "present",
+              "selected": true
+            },
+            {
+              "label": "Not Present",
+              "value": "not_present",
+              "selected": true
+            }
+          ],
+          "cta": {
+            "text": "Mark Decayed Tooth",
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        },
+        {
+          "type": "radio",
+          "radioLabel": "Root Stumps",
+          "radioKey": "root_stumps",
+          "options": [
+            {
+              "label": "Present",
+              "value": "present",
+              "selected": true
+            },
+            {
+              "label": "Not Present",
+              "value": "not_present",
+              "selected": true
+            }
+          ],
+          "cta": {
+            "text": "Mark Root Stumps",
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        }
+      ]
+    },
+    "abrasion": {
+      "label": "Non Carious Defects",
+      "key": "non_carious_defects",
+      "steps": [
+        {
+          "type": "radio_tag_selection",
+          "radioLabel": "Abrasion",
+          "radioKey": "abrasion",
+          "options": [
+            {
+              "label": "Normal",
+              "value": "normal",
+              "selected": true
+            },
+            {
+              "label": "Mild",
+              "value": "mild",
+              "selected": true
+            },
+            {
+              "label": "Severe",
+              "value": "severe",
+              "selected": true
+            }
+          ],
+          "tags": [
+            {
+              "label": "Localized",
+              "value": "localized",
+              "selected": true
+            },
+            {
+              "label": "Generalized",
+              "value": "generalized",
+              "selected": true
+            }
+          ],
+          "tagLabel": "Location",
+          "tagKey": "location",
+          "cta": {
+            "text": "Mark Abrasion",
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        },
+        {
+          "type": "radio_tag_selection",
+          "radioLabel": "Attrition",
+          "radioKey": "attrition",
+          "options": [
+            {
+              "label": "Normal",
+              "value": "normal",
+              "selected": true
+            },
+            {
+              "label": "Mild",
+              "value": "mild",
+              "selected": true
+            },
+            {
+              "label": "Severe",
+              "value": "severe",
+              "selected": true
+            }
+          ],
+          "tags": [
+            {
+              "label": "Localized",
+              "value": "localized",
+              "selected": true
+            },
+            {
+              "label": "Generalized",
+              "value": "generalized",
+              "selected": true
+            }
+          ],
+          "tagLabel": "Location",
+          "tagKey": "location",
+
+          "cta": {
+            "text": "Mark Attrition",
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        },
+        {
+          "type": "radio_tag_selection",
+          "radioLabel": "Occlusal wear ",
+          "radioKey": "occlusal_wear",
+          "options": [
+            {
+              "label": "Normal",
+              "value": "normal",
+              "selected": true
+            },
+            {
+              "label": "Mild",
+              "value": "mild",
+              "selected": true
+            },
+            {
+              "label": "Severe",
+              "value": "severe",
+              "selected": true
+            }
+          ],
+          "tags": [
+            {
+              "label": "Localized",
+              "value": "localized",
+              "selected": true
+            },
+            {
+              "label": "Generalized",
+              "value": "generalized",
+              "selected": true
+            }
+          ],
+          "tagLabel": "Location",
+          "tagKey": "location",
+          "cta": {
+            "text": "Mark Occlusal Wear",
+            "action": "LINK",
+            "actionData": {
+              "link": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}
