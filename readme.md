@@ -10,6 +10,10 @@ Currently building the consultation system for ManMatters, BeBodyWise and Little
 
 Software engineer as a career is ever changing and we as engineers need to keep ourself updated and need to keep learning new technologies. This repository is my personal log of all the things I have learnt and all the things that I have built.
 
+## Things I strongly believe in
+
+**I really feel, building big and scalable frontend systems is a tough problem statement to solve. Frontend systems are NOT easy to build.**
+
 ## Things I am learning
 
 1. [Javascript Quiz](./javascript-quiz/)
@@ -21,15 +25,18 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 ## Apps I have been a part of
 
 ### Navis
+
 1. https://play.google.com/store/apps/details?id=com.navis.nReefer&hl=en_US
 2. https://play.google.com/store/apps/details?id=com.navis.pinning
 3. https://play.google.com/store/apps/details?id=com.navis.terminalvisits
 
-### Anar 
+### Anar
+
 1. https://www.anar.biz/
 2. https://play.google.com/store/apps/dev?id=7657012068745593110&hl=en_IN&pli=1
 
 ### Mosaic Wellness
+
 1. https://play.google.com/store/apps/details?id=com.mosaicwellness.manmatters&pcampaignid=web_share
 2. https://play.google.com/store/apps/details?id=com.mosaicwellness.ourlittlejoys
 3. https://play.google.com/store/apps/details?id=com.mosaicwellness.bebodywise
