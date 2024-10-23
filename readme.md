@@ -12,7 +12,8 @@ Software engineer as a career is ever changing and we as engineers need to keep 
 
 ## Things I strongly believe in
 
-**I really feel, building big and scalable frontend systems is a tough problem statement to solve. Frontend systems are NOT easy to build.**
+1. **Building big and scalable frontend systems is a tough problem statement to solve. Frontend systems are NOT easy to build.**
+2. **Server driven UI systems is the way to build mobile applications at scale.**
 
 ## Things I am learning
 
