@@ -1,5 +1,5 @@
 
-const {pipe, map, toArray } = require("@fxts/core")
+const {pipe, map, toArray, pick } = require("@fxts/core")
 
 function someAsyncOperation() {
   return new Promise((resolve, reject) => {
