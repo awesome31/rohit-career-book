@@ -1,26 +1,51 @@
-# Concepts Learnt
+# Android Development Concepts
 
-1. By default the entry point of an android application is the MainActivity file.
+## Entry Point
 
-2. Layouts are defined using an xml file. There are primarily two types of views that exist in layout:
-    1. View => These control the layout of a particular element. Classes like TextView or ButtonView extend from the View class.
-    2. ViewGroup => These are not rendered on the mobile device but rather, control the way the View elements are laid out on the screen.
-    3. For each View element we create a separate tag in our XML file. Each XML element has an attribute.
-    4. Each XML element can contain children. Children are other XML elements nested inside a particular element.
+By default, the entry point of an Android application is the `MainActivity` file. This file acts as the initial point of interaction for users, setting the stage for the app’s functionality and user experience.
 
-3. We can reference **resources** in our XML files and our activity files. Resources can be strings, images etc.
+## Layouts
 
-4. We can preview the XML that we have created using the Design Preview tab in the Android editor. We also have a list of attributes that we can add to each
-   XML element.
+Layouts in Android are defined using XML files. There are two main types of views that exist within these layouts: the **View** and the **ViewGroup**. A **View** controls the layout of a particular element, with classes like `TextView` or `ButtonView` extending from the `View` class. Meanwhile, a **ViewGroup** is not rendered on the mobile device but is crucial in controlling how the `View` elements are arranged on the screen. Each `View` element corresponds to a separate tag in the XML file, where each XML element has its own attributes and can contain nested children elements.
 
-5. Each XML Layout file that we create needs to be converted into View Objects in our Kotlin code. This is done by an Activity.
-   We inflate the layout (create an object from the layout file) and then set the content view using the setContentView function.
+## Resources
 
-6. A layout is a resource. A resource is a piece of your application that
-   is not code – things like image files, audio files, and XML files.
+Within the XML and activity files, it is possible to reference various **resources**. These resources can be strings, images, or other content that the application uses.
 
-7. We can attach listeners to each view to listen to click events or any other event that we want to use. Android development is an event driven system and based on these events we react or change
-   the UI. When building Android applications, Android studio uses Android asset packaging tool to take the layout files and convert them into View object. The LayoutInflater class does this
-   inflation.
-8. There are a lot of different architectural patterns there in Android Development and all of them have the Model part in common. Models essentially contains the data that we want our activities
-   to use.
+## Design Preview
+
+Android Studio’s Design Preview tab allows developers to visualize the XML layouts they create. This tab also provides a list of attributes that can be added to each XML element, enhancing the overall development process.
+
+## XML Layout to View Object
+
+Every XML layout file must be converted into `View` objects in Kotlin code. This task is handled by an Activity, which inflates the layout—creating an object from the layout file—and then sets the content view using the `setContentView` function.
+
+## Resources Definition
+
+A layout is considered a resource. In the context of Android development, a resource is any part of your application that isn’t code, such as image files, audio files, and XML files.
+
+## Event Listeners
+
+It is possible to attach listeners to each view to monitor click events or any other events. Android development operates on an event-driven system, meaning that the UI reacts or changes based on these events. The Android Asset Packaging Tool (AAPT) is used by Android Studio to take the layout files and convert them into `View` objects. The `LayoutInflater` class plays a key role in this inflation process.
+
+## Architectural Patterns
+
+In Android development, various architectural patterns exist, all sharing the Model component. Models essentially contain the data that activities need to use.
+
+## Tools Attributes
+
+Using the `tools` attributes on XML tags ensures that dynamic content is correctly previewed during development.
+
+## View Bindings
+
+Instead of obtaining references to views and then attaching listeners or changing content, a more efficient approach is to use view bindings. View Bindings facilitate cleaner code and ensure the correct typing of XML elements.
+
+## Screen Density Pixels
+
+Android devices come in a wide variety of shapes and sizes. Even just among phones, specifications such as screen size and resolution vary widely. Modern phones have pixel densities ranging from less than 300 pixels per inch to more than 800 pixels per inch. What happens when you want to display the same UI on different density screens? Or when the user configures a larger-than-default text size? It would be a very frustrating user experience if your button were tiny on one device and massive on another. To provide a consistent experience on all devices, Android provides density-independent dimension units that you can use to get the same size on different screen densities. Android translates these units using the device’s defined density bucket to pixels at runtime, so there is no tricky math for you to do. These density buckets range from low density (LDPI) to medium density (MDPI) to high density (HDPI) and all the way up to extra-extra-extra-high density (XXXHDPI)
+
+Sills, Bryan; Gardner, Brian; Marsicano, Kristin; Stewart, Chris. Android Programming (Big Nerd Ranch Guides) (p. 109). Pearson Education. Kindle Edition.
+
+## Best Practices
+
+It's always a good practice to separate reusable code into functions that can be invoked from different places within an application. This approach not only promotes code reusability but also enhances the maintainability and readability of the codebase.
