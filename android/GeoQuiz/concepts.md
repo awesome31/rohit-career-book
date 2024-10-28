@@ -16,9 +16,11 @@
 5. Each XML Layout file that we create needs to be converted into View Objects in our Kotlin code. This is done by an Activity.
    We inflate the layout (create an object from the layout file) and then set the content view using the setContentView function.
 
-6. A layout is a resource. A layout is a resource. A resource is a piece of your application that
+6. A layout is a resource. A resource is a piece of your application that
    is not code – things like image files, audio files, and XML files.
 
 7. We can attach listeners to each view to listen to click events or any other event that we want to use. Android development is an event driven system and based on these events we react or change
    the UI. When building Android applications, Android studio uses Android asset packaging tool to take the layout files and convert them into View object. The LayoutInflater class does this
-   installation.
+   inflation.
+8. There are a lot of different architectural patterns there in Android Development and all of them have the Model part in common. Models essentially contains the data that we want our activities
+   to use.
