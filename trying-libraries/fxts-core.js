@@ -1,29 +1,30 @@
-
-const {pipe, map, toArray, pick } = require("@fxts/core")
+const { pipe, map, toArray, pick } = require("@fxts/core");
 
 function someAsyncOperation() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve({
         data: {
-          doctors: [{
-            name: 'Dr. A',
-            age: 30
-          }]
-        }
-      })
-    }, 1000)
-  })
+          doctors: [
+            {
+              name: "Dr. A",
+              age: 30,
+            },
+          ],
+        },
+      });
+    }, 1000);
+  });
 }
 
-const extractDoctors = (res) => res.data.doctors
-const extractName = (doctor) => doctor.name
+const extractDoctors = (res) => res.data.doctors;
+const extractName = (doctor) => doctor.name;
 
 const names = pipe(
   someAsyncOperation(),
   extractDoctors,
   map(extractName),
   toArray
-)
+);
 
-names.then(console.log) // ['Dr. A']
+names.then(console.log); // ['Dr. A']
