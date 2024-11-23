@@ -10,17 +10,17 @@ Currently building the consultation system for ManMatters, BeBodyWise and Little
 
 Software engineer as a career is ever changing and we as engineers need to keep ourself updated and need to keep learning new technologies. This repository is my personal log of all the things I have learnt and all the things that I have built.
 
-## Things I strongly believe in
+## My Goals for 2024-2025
 
-1. **Building big and scalable frontend systems is a tough problem statement to solve. Frontend systems are NOT easy to build.**
-2. **Server driven UI systems is the way to build mobile applications at scale.**
+1. Understand AWS services and get certified as AWS Solutions Architect.
+2. Keep getting better and building scalable frontend systems.
 
 ## Things I am learning
 
 1. [Javascript Quiz](./javascript-quiz/)
 2. [Typescript](./typescript/)
 3. [Git](./git/)
-4. [AWS](./aws-certified-developer/)
+4. [AWS Solutions Architect](./aws-solutions-architect)
 5. [Daily Coding Problem](./daily-coding-problems)
 6. [Android](./android)
 
