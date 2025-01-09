@@ -22,6 +22,7 @@ const outerFunc = () => {
   let count = 0;
   return () => ++count;
 };
+
 const counter = outerFunc();
 console.log(counter()); // 1
 console.log(counter()); // 2
@@ -41,6 +42,7 @@ function createCounter() {
     incrementCounter,
   };
 }
+
 const counter2 = createCounter();
 console.log(counter2.incrementCounter());
 console.log(counter2.incrementCounter());
